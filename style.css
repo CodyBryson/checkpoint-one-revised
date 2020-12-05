@@ -1,0 +1,49 @@
+.display-1{
+  font-family: "Raleway:wght@900" !important;
+}
+
+p, div {
+  font-family: "Raleway:wght@400;900" !important;
+}
+
+h1, h2, h3, h4, h5{
+  font-family: "Raleway:wght@400;600;900" !important;
+}
+.splash-page{
+  background-image: url(seven-samurai-2.jpg);
+  min-height: 80vh;
+  background-size:cover;
+}
+.card-white-email{
+  background: #E9E9DF;
+  padding: 10px;
+  box-shadow: 1px 1px 2px #C5D0DE;
+  border-radius: 4px;
+  margin: 20px 50px;
+  opacity: .5;
+}
+.card-white-email:hover{
+  opacity: .9;
+}
+main{
+  background-color: #E9E9DF !important;
+}
+header{
+  background-color: #E9E9DF !important;
+}
+.navbar{
+  background: #E9E9DF !important;
+}
+button{
+  background: #A33630;
+  color: rgba(255, 255, 255, 0.884);
+}
+.message-heading{
+  color: #1E2428;
+}
+.message-subheading{
+  color: #1E2428;
+}
+.message-base{
+  color: #1E2428;
+}
