@@ -48,7 +48,6 @@ button{
 }
 .card-white-message{
   background: #C7C7BF;
-  padding: 1%;
   box-shadow: 2px 2px 4px #1E2428;
   border-radius: 2%;
   margin-top: auto;
@@ -76,4 +75,8 @@ button{
 .card-fight{
   background: #E9E9DF;
   margin: auto;
+}
+i.fab,
+i.fas {
+  color: #A3514D;
 }
