@@ -1,14 +1,4 @@
-.display-1{
-  font-family: "Raleway:wght@900" !important;
-}
 
-p, div {
-  font-family: "Raleway:wght@400;900" !important;
-}
-
-h1, h2, h3, h4, h5{
-  font-family: "Raleway:wght@400;600;900" !important;
-}
 .splash-page{
   background-image: url(seven-samurai-2.jpg);
   min-height: 80vh;
@@ -35,8 +25,11 @@ header{
   background: #E9E9DF !important;
 }
 button{
-  background: #A33630;
-  color: rgba(255, 255, 255, 0.884);
+  background: #C7C7BF;
+  color: #1E2428;
+}
+.display-2{
+  font-family: 'Raleway', sans-serif !important;
 }
 .message-heading{
   color: #1E2428;
@@ -48,16 +41,39 @@ button{
   color: #1E2428;
 }
 .message-box{
-  background: #C5D0DE;
+  background-image: url(redbottomwave.png);
+  min-height: 40px;
+  background-size: cover;
   position: relative;
 }
 .card-white-message{
-  background: #E9E9DF;
-  padding: 30px;
+  background: #C7C7BF;
+  padding: 1%;
+  box-shadow: 2px 2px 4px #1E2428;
+  border-radius: 2%;
+  margin-top: auto;
+  }
+@media screen and (min-width: 768px){
+.card-white-message{
+  position:absolute;
+  transform: translateY(50%);
+  left: 50%;
+  }
+}
+.card-white-quotes{
+  background:#C7C7BF;
   box-shadow: 2px 2px 4px #1E2428;
   border-radius: 5px;
   margin: auto;
-  position: absolute;
-  transform: translateY(20%);
-  left: 50%;
+}
+.card-white-quotes-l{
+  background: #C7C7BF;
+  box-shadow: 2px 2px 4px #1E2428;
+  border-radius: 5px;
+  margin: auto;
+
+}
+.card-fight{
+  background: #E9E9DF;
+  margin: auto;
 }
